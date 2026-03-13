@@ -1,0 +1,56 @@
+.logo-shoppingcart {
+  display: flex;
+  justify-content: space-between;
+  font-size: xx-large;
+}
+.logo {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dummy-space {
+  width: 30px;
+  padding-right: 35px;
+}
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: large;
+  color: #740172;
+  font-weight: 900;
+  text-decoration: none;
+  list-style-type: none;
+  text-wrap: nowrap;
+  gap: 20px;
+}
+.cart-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 35px;
+}
+.shopping-cart {
+  width: 30px;
+  height: 30px;
+  display: flex;
+}
+
+.logo-placement-products {
+  text-decoration: none;
+  color: black;
+}
+
+/*phone sizing*/
+@media (max-width: 768px) {
+  header {
+    position: static;
+  }
+
+  main {
+    margin-top: 20px;
+  }
+}
